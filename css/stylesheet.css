@@ -1,0 +1,118 @@
+header{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/header-image.png);
+    height:100vh;
+    box-sizing: border-box;
+    /* box-shadow: -300px -300px 40px black; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav{
+ display: flex;
+ justify-content:space-between;
+ padding:30px 8rem;
+}
+.top-nav-logo{
+ font-size: 52px;
+ color: red;
+ text-decoration: none;
+}
+.top-nav-btn{
+  background-color: red;
+  height: 40px;
+  width:80px;
+  border-radius: 8px;
+  border-color:red ;
+  color: white;
+  font-size: medium;
+  border: none;
+}
+.heding{
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 5rem;
+
+        
+}
+.bh1{
+    font-size: 2rem;
+    color: white;
+}
+.bh2{
+    font-size: 1.3rem;
+    color: white;
+}
+.bottem-h{
+    line-height: 3rem;
+    text-align: center;
+    align-content: center; 
+}
+.header-f{
+    display:flex;
+    gap:9px;
+    justify-content: center;
+}
+.email-i-t{
+    height:50px;
+    width:430px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    margin:5px;
+    border-color: white;
+    color: white;
+}
+.email-i-b{
+    height:50px;
+    width:180px;
+    margin:5px;
+    background-color: red;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+}
+.md{
+    z-index:10;
+    background-color: rgba(0, 0, 0, 0.671);
+    height:100vh;
+    
+}
+/* .top-nav-logo a:active{
+    color: red;
+    text-decoration: none;
+
+}
+.top-nav-logo a:hover{
+    color: red;
+    text-decoration: none;
+}
+.top-nav-logo a:visited{
+    color: red;
+    /* text-decoration: none; */
+/*     
+}
+.top-nav-btn a:hover{
+    color: white;
+    text-decoration: none;
+}
+.top-nav-btn a:visited{
+    color: white;
+    text-decoration: none;
+}
+.top-nav-btn a:active{
+    color: white;
+    text-decoration: none;
+
+}
+.top-nav-btn a:hover{
+    color: white;
+    text-decoration: none;
+}
+.top-nav-btn a:visited{
+    color: white;
+    text-decoration: none;
+} */ 
