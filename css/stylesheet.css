@@ -2,7 +2,7 @@ header{
     margin: 0;
     padding: 0;
     background-image: url(../img/header-image.png);
-    height:80vh;
+    height:100vh;
     box-sizing: border-box;
     /* box-shadow: -300px -300px 40px black; */
     font-family: sans-serif
@@ -41,7 +41,6 @@ color: white;
   font-size: medium;
   border: none;
 }
-btn
 .heding{
     font-size: 5rem;
     color: white;
