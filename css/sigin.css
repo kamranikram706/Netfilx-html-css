@@ -121,6 +121,16 @@ footer{
 }
 .f-s{
     margin-top: -10rem;
+    margin-bottom:5rem;
+}
+.re:hover{
+    background-color: rgba(255, 0, 0, 0.719);
+}
+.gra{
+    background-color: gray;
+}
+.gra:hover{
+    background-color: rgba(128, 128, 128, 0.788);
 }
 #Pa{
     height:40px;

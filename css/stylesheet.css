@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 header{
     margin: 0;
     padding: 0;
@@ -156,7 +160,7 @@ color: white;
 }
 .box{
     margin-top: 20px;
-    background: linear-gradient(-180deg, #1CB5E0 0%, #000851 100%);
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
     height:300px;
     width: 260px;
     box-sizing: border-box;

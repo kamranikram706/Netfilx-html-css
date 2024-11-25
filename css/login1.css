@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    padding:10px 8rem;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+   }
+   .top-nav-logo{
+    font-size: 55px;
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+   }
+   .top-nav-logo>a{
+       text-decoration: none;
+       color: red;
+       cursor: pointer;
+   }
+   .logoa{
+    font-size:22px;
+   }
+   .a{
+    color: black;
+    text-decoration: none;
+   }
+   .md{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+   img{
+    margin-left:10rem;
+    width: 50%;
+    height: 50%;
+   }
+
+   .font{
+    font-size: large;
+   }
+   .sfont{
+    font-size: small;
+   }
+   .mt{
+    margin-top:1rem;
+   }
+.center{
+    text-align: center;
+    margin-top: 3rem;
+}
+.bole{
+font-size: xx-large;
+font-weight: bolder;
+}
+button{
+
+    margin-left:9rem;
+    height: 4rem;
+    width:30vw;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    font-size: larger;
+font-weight: bolder;
+}
+.w{
+    color: white;
+
+}
+.hover:hover{
+    text-decoration: solid 1px underline rgba(0, 0, 0, 0.514);
+}
+.footer-g{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:40px 40px 40px;
+    font-size: medium;
+    margin: 2rem 3rem 3px 3rem;
+    
+
+}
+.a-f{
+    color: rgba(0, 0, 0, 0.555);
+    font-size: medium;
+
+}
+footer{
+    padding-top:3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    background-color: rgba(128, 128, 128, 0.199);
+}
+.mar{
+    margin: 1rem 3rem;
+
+}

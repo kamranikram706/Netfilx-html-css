@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    padding:10px 8rem;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+   }
+   .top-nav-logo{
+    font-size: 55px;
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+   }
+   .top-nav-logo>a{
+       text-decoration: none;
+       color: red;
+       cursor: pointer;
+   }
+   .logoa{
+    font-size:22px;
+   }
+   .a{
+    color: black;
+    text-decoration: none;
+   }
+   
+
+.w{
+    color: white;
+
+}
+.hover:hover{
+    text-decoration: solid 1px underline rgba(0, 0, 0, 0.514);
+}
+.footer-g{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:40px 40px 40px;
+    font-size: medium;
+    margin: 2rem 3rem 3px 3rem;
+    
+
+}
+.a-f{
+    color: rgba(0, 0, 0, 0.555);
+    font-size: medium;
+
+}
+footer{
+    padding-top:3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    background-color: rgba(128, 128, 128, 0.199);
+}
+.mar{
+    margin: 1rem 3rem;
+
+}
+.md{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    margin-top:-10rem;
+}
+form{
+    box-sizing: border-box;
+    width: 30vw;
+    height: 50vh;
+    box-sizing: border-box;
+}
+.sfont{
+    margin-top: 1rem;
+    font-size: medium;
+}
+.input{
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-left:1rem;
+    margin-top: 1rem;
+    height:3rem;
+    width: 29vw;
+}
+.lfont{
+    margin-top: 1.6rem;
+
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.chek{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.cen{
+    font-size: 16px;
+}
+#cha{
+    height: 35px;
+    width: 35px;
+}
+.button{
+   
+    height: 4rem;
+    width:30vw;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    font-size: larger;
+font-weight: bolder;
+color: white;
+margin-top: 15px;
+}
