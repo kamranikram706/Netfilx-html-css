@@ -106,7 +106,7 @@ form{
     height: 35px;
     width: 35px;
 }
-.button{
+button{
    
     height: 4rem;
     width:30vw;
@@ -117,4 +117,13 @@ form{
 font-weight: bolder;
 color: white;
 margin-top: 15px;
+}
+
+.a{
+    color: black;
+    text-decoration: none;
+   }
+   .w{
+    color: white;
+
 }

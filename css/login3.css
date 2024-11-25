@@ -50,7 +50,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 40px 40px 40px;
     font-size: medium;
-    margin: 2rem 3rem 3px 3rem;
+    margin-top: 2rem;
 
 
 }
@@ -66,14 +66,15 @@ footer {
     box-sizing: border-box;
     border: 1px solid rgba(128, 128, 128, 0.336);
     background-color: rgba(128, 128, 128, 0.199);
+    padding-left: 3rem;
 }
 
 img {
-    width: 25%;
-    height: 25%;
+    width: 13%;
+    height: 13%;
 }
 
-.button {
+button {
 
     height: 4rem;
     width: 30vw;
@@ -92,18 +93,21 @@ img {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin-bottom: 5rem;
 }
-.sfont{
+
+.sfont {
     margin-top: 1rem;
     font-size: medium;
 }
 
-.lfont{
-    margin-top: 1.6rem;
+.lfont {
+    margin-top: 0.6rem;
 
     font-size: xx-large;
     font-weight: bolder;
 }
+
 .checkmark-group--icon {
     align-self: flex-start;
     color: #e50914;
@@ -111,7 +115,32 @@ img {
     height: 26px;
     width: 26px;
 }
-.alin{
+
+.alin {
     text-align: center;
+
+}
+
+.cent {
+    display: flex;
+    justify-content: center;
+}
+
+.mfont {
+    font-size: 22px;
+    line-height: 2.3rem;
+}
+
+ol {
+    list-style-image: url('../img/check-mark.png');
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+}
+
+.w {
+    color: white;
 
 }
